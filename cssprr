@@ -10,46 +10,49 @@ body {
   height: auto;
 }
 
-#button1, #button2 {
-  background-color: #D3E1ED;
-  color: #000000;
-  border: none;
-  padding: 20px 0px;
-  font-size: 16px;
-  cursor: pointer;
-  margin: 20px;
-  font-weight: bold;
-  gap: 5px;
-}
-
 .Logo {
   font-size: 2rem;
   color: #000000;
   text-decoration: none;
   font-weight: bold;
   margin: 20px;
-  
 }
-header{
- background-color: #D3E1ED;
- padding: 20px;
- display: flex;
- gap: 20px;
- justify-content: flex-start;
 
+header {
+  background-color: #D3E1ED;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .nav {
   display: flex;
-  gap: 40px;
+  gap: 10px; /* Reduzido para aproximar os links */
   justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 
 .nav a {
   text-decoration: none;
   color: #000000;
-    font-size: 20px;
-    margin: 20px;
-
+  font-size: 20px;
+  margin: 0 10px; /* Reduzido para aproximar os links */
+  padding: 10px 20px; /* Reduzido para aproximar os links */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+#button1, #button2 {
+  background-color: #D3E1ED;
+  color: #000000;
+  border: none;
+  padding: 10px 20px; /* Reduzido para aproximar os botões */
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 5px; /* Reduzido para aproximar os botões */
+  font-weight: bold;
+}
