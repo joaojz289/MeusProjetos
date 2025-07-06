@@ -1,0 +1,148 @@
+/* Importando fonte Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #3f3d56;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 80px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+header h3 {
+  font-size: 24px;
+  color: #5E6282;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #212832;
+  font-weight: 500;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #F1A501;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #d18d01;
+}
+
+select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-left: 20px;
+}
+
+main section {
+  padding: 80px;
+}
+
+main section h1 {
+  font-size: 48px;
+  color: #181E4B;
+  margin-bottom: 20px;
+}
+
+main section h2 {
+  font-size: 36px;
+  color: #181E4B;
+  margin-bottom: 20px;
+}
+
+main section h4 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #5E6282;
+}
+
+main section h5,
+main section p {
+  color: #5E6282;
+}
+
+main section h6 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+  color: #1E1D4C;
+}
+
+main section img {
+  width: 100%;
+  max-width: 250px;
+  margin-top: 20px;
+}
+
+section .service-container,
+section .testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+section .service-container div,
+section .testimonial-container div {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(89, 91, 255, 0.1);
+  text-align: center;
+}
+
+section .testimonial-container p {
+  font-style: italic;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 40px 80px;
+  text-align: center;
+  color: #5E6282;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  main section {
+    padding: 40px 20px;
+  }
+
+  section .service-container {
+    grid-template-columns: 1fr;
+  }
+}
