@@ -112,12 +112,6 @@ h1{
     color: #181E4B;
 }
 
-.imgprincipal{
-    margin-left: 8%;
-    flex: 40%;
-    border: 1px;
-}
-
 .p1{
     padding-top: 1px;
 }
@@ -132,8 +126,14 @@ h1{
     text-align: center;
 }
 
+.divsc2 img{
+    width: 100px;
+    height: auto;
+    align-items: center;
+}
+
 .divsc3{
-    padding-top: 170px;
+    padding-top: 50px;
     text-align: center;
 }
 
@@ -146,8 +146,8 @@ h1{
 
 .divsc5{
     margin-top: 150px;
-    margin-left: 80px;
-    margin-bottom: 150px;
+    text-align: left;
+    margin-bottom: 200px;
 }
 
 h6{
@@ -172,6 +172,47 @@ h6{
   text-align: center;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
+}
+
+.newsletter-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.newsletter-text {
+  font-size: 25px;
+  color: #1e1e1e;
+  margin-bottom: 1.5rem;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.subscribe input {
+  padding: 0.75rem 1rem;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.subscribe button {
+  padding: 0.75rem 1.5rem;
+  background-color: coral;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-weight: bold;
+}
+
+.subscribe button:hover {
+  background-color: #d95600;
 }
 
 .imgpequena1{
@@ -242,3 +283,224 @@ h6{
     height: auto;
 }
 
+.mulherdocaralho{
+  transform: translateX(100px);
+  display: flex;
+
+}
+/*modificações*/
+/* Estilização da seção principal */
+#secao1 {
+  padding: 50px;
+  background-color: #f5f5f5; /* Cor de fundo opcional */
+}
+
+/* Container flex para alinhar texto e imagem lado a lado */
+#secao1 .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap; /* Para responsividade */
+}
+
+/* Texto à esquerda */
+#secao1 .texto {
+  flex: 1;
+  max-width: 600px;
+}
+
+#secao1 .texto h5 {
+  color: #ff5e57;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#secao1 .texto h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+#secao1 .texto p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Botões e "Play Demo" */
+.botoes {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#BTE,
+#BTE2 {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#BTE {
+  background-color: #ff5e57;
+  color: white;
+}
+
+#BTE2 {
+  background-color: transparent;
+  border: 2px solid #ff5e57;
+  width: 40px;
+  height: 40px;
+}
+
+#H5DOCARALHO {
+  margin: 0;
+  color: #333;
+}
+
+/* Imagem à direita */
+#secao1 .imgprincipal {
+  flex: 1;
+  display: flex;
+  justify-content: center
+
+}
+
+/* Centraliza toda a seção */
+section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+/* Título e subtítulo */
+.divsc1 p {
+  color: #ff5e57;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.divsc1 h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+/* Container dos ícones */
+.servicos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Cada box de serviço */
+.icone-box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 230px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+}
+
+.icone-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Estilização da imagem */
+.icone-box img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+/* Título e descrição */
+.icone-box h4 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.icone-box p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+
+/* Seção destinos */
+.destinos {
+  padding: 60px 20px;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+/* Título e subtítulo */
+.divsc3 p {
+  color: #ff5e57;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+.divsc3 h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+/* Container dos destinos */
+.divsc4 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; /* Para responsividade */
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Cada destino */
+.destino-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 300px;
+  padding-bottom: 20px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.destino-item:hover {
+  transform: translateY(-8px);
+}
+
+/* Imagem do destino */
+.coliseudapeste {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Textos abaixo da imagem */
+.destino-nome {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 15px 0 5px 0;
+  color: #222;
+}
+
+.destino-duracao {
+  font-size: 1rem;
+  color: #666;
+}
