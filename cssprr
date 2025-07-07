@@ -504,3 +504,231 @@ section {
   font-size: 1rem;
   color: #666;
 }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4ff;
+  padding: 40px;
+}
+
+.trip-card {
+  position: relative;
+  width: 340px;
+  background: white;
+  border-radius: 20px;
+  padding: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.trip-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.trip-content h2 {
+  margin: 12px 0 4px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.trip-date {
+  color: #888;
+  font-size: 14px;
+}
+
+.trip-date span {
+  color: #aaa;
+}
+
+.trip-icons {
+  margin: 12px 0;
+}
+
+.icon {
+  margin-right: 12px;
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+.people-going {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.mini-card {
+  position: absolute;
+  right: -40px;
+  bottom: 40px;
+  background: white;
+  border-radius: 20px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.mini-card img {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.mini-content .status {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.mini-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.progress-text {
+  font-size: 12px;
+  color: #888;
+}
+
+.progress-text span {
+  color: #6c4be4;
+  font-weight: 600;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 5px;
+  background: #eee;
+  border-radius: 3px;
+  margin-top: 4px;
+}
+
+.progress-fill {
+  width: 40%;
+  height: 100%;
+  background: #6c4be4;
+  border-radius: 3px;
+}
+
+.section-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.divsc5 {
+  flex: 1;
+}
+
+.trip-card {
+  position: relative;
+  width: 340px;
+  background: white;
+  border-radius: 20px;
+  padding: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.trip-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.trip-content h2 {
+  margin: 12px 0 4px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.trip-date {
+  color: #888;
+  font-size: 14px;
+}
+
+.trip-date span {
+  color: #aaa;
+}
+
+.trip-icons {
+  margin: 12px 0;
+}
+
+.icon {
+  margin-right: 12px;
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+.people-going {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.mini-card {
+  position: absolute;
+  right: -60px;
+  bottom: 30px;
+  background: white;
+  border-radius: 20px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.mini-card img {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.mini-content .status {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.mini-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.progress-text {
+  font-size: 12px;
+  color: #888;
+}
+
+.progress-text span {
+  color: #6c4be4;
+  font-weight: 600;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 5px;
+  background: #eee;
+  border-radius: 3px;
+  margin-top: 4px;
+}
+
+.progress-fill {
+  width: 40%;
+  height: 100%;
+  background: #6c4be4;
+  border-radius: 3px;
+}
