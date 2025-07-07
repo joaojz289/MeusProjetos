@@ -1,58 +1,244 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-image: url('https://images.unsplash.com/photo-1743657166981-8d8e11d03c3e?q=80&w=667&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-  background-size: cover;
-  height: auto;
-}
-
-.Logo {
-  font-size: 2rem;
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 20px;
-}
-
 header {
-  background-color: #D3E1ED;
-  padding: 20px;
   display: flex;
-  gap: 20px;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
+  padding: 20px 50px;
 }
 
-.nav {
-  display: flex;
-  gap: 10px; /* Reduzido para aproximar os links */
-  justify-content: center;
-  align-items: center;
-  flex: 1;
+/* Logo à esquerda */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 4%;
 }
 
-.nav a {
+/* Container do menu */
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* espaço entre links e botões */
+}
+
+/* Links do menu */
+.nav-links {
+  display: flex;
+  gap: 30px; /* espaço entre os links */
+}
+
+.nav-links a {
   text-decoration: none;
-  color: #000000;
-  font-size: 20px;
-  margin: 0 10px; /* Reduzido para aproximar os links */
-  padding: 10px 20px; /* Reduzido para aproximar os links */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#button1, #button2 {
-  background-color: #D3E1ED;
-  color: #000000;
-  border: none;
-  padding: 10px 20px; /* Reduzido para aproximar os botões */
-  font-size: 16px;
-  cursor: pointer;
-  margin: 0 5px; /* Reduzido para aproximar os botões */
+  color: rgb(0, 0, 0);
   font-weight: bold;
 }
+ #BTE{
+  padding: 10px 20px;
+  background-color: #fdb10c;
+  color: white; 
+  border: none;
+   border-radius: 8px; 
+    cursor: pointer;
+
+ }
+
+#H5DOCARALHO {
+  color: black;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -110px; /* Ajuste para alinhar com o ícone */
+  line-height: 40px;   /* Mesma altura do botão */
+  position: relative;
+  z-index: 1;
+}
+#BTE2 {
+  background: transparent;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/0/375.png');
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: center left 16px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  color: #181E4B;
+  font-size: 14px;
+  cursor: pointer;
+  padding-left: 48px;
+  position: relative;
+  z-index: 0;
+  /* Remova margin-top daqui se não funcionar */
+  top: 20px; /* Use top para mover para baixo se o botão estiver em position: relative */
+}
+
+/* Botões e select à direita */
+.actions {
+  display: flex;
+  gap: 15px;
+}
+
+.actions button,
+.actions select {
+  padding: 10px;
+}
+
+.botaoestiloso {
+  border: none;
+  background: none;
+  font-size: 12px;
+}
+
+.semestilo{
+    background: none;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 12px;
+
+}
+
+select {
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+h5{
+    color: chocolate;
+}
+
+h1{
+    margin-bottom: 1px;
+    font-size: 70px;
+    margin-top: 1px;
+    color: #181E4B;
+}
+
+.imgprincipal{
+    margin-left: 8%;
+    flex: 40%;
+    border: 1px;
+}
+
+.p1{
+    padding-top: 1px;
+}
+
+.divsc1{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.divsc2{
+    display: flex;
+    text-align: center;
+}
+
+.divsc3{
+    padding-top: 170px;
+    text-align: center;
+}
+
+.divsc4{
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.divsc5{
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-bottom: 150px;
+}
+
+h6{
+    margin-left: 50px;
+}
+
+.paragra{
+    margin-left: 50px;
+}
+
+.divmaldita{
+    margin-bottom: 150px;
+}
+
+.secaodepoi{
+    margin-left: 70px;
+}
+
+.footer {
+  background:#F5F5F5;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.imgpequena1{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.imgpequena1 img{
+  width: 50px;
+  margin-right: 15px;
+}
+
+.imgpequena1 .texto h6{
+  margin: 0;
+  font-size: 18px;
+}
+
+.imgpequena1 .texto p{
+  margin: 5px 0 0 0;
+  font-size: 14px;
+}
+
+.imgpequena2{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.imgpequena2 img{
+  width: 50px;
+  margin-right: 15px;
+}
+
+.imgpequena2 .texto2 h6{
+  margin: 0;
+  font-size: 18px;
+}
+
+.imgpequena2 .texto2 p{
+  margin: 5px 0 0 0;
+  font-size: 14px;
+}
+
+.imgpequena3{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.imgpequena3 img{
+  width: 50px;
+  margin-right: 15px;
+}
+
+.imgpequena3 .texto3 h6{
+  margin: 0;
+  font-size: 18px;
+}
+
+.imgpequena3 .texto3 p{
+  margin: 5px 0 0 0;
+  font-size: 14px;
+}
+
+.coliseudapeste {
+    width: 400px;
+    height: auto;
+}
+
